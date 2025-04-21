@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root {
+    --cor0:#1e1e1f;
+    --cor1:#121213;
+}
+
+
+html, body {
+    width: 97vw;
+    height: 98vh;
+    text-align: center;
+    background: var(--cor1) url(img/background.jpg) no-repeat bottom center fixed;
+    color: white;
+    
+}
+
+#perfil {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#nome {
+    font-family: "Manrope", sans-serif;
+    font-size: 1.2em;
+}
+
+#social {
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    color: #8894cb75;
+    padding: 20px;
+}
+
+
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 96vw;
+    border-radius: 15px;
+    padding: 20px 0px;
+    background-color: var(--cor0);
+}
+
+.icon {
+    width: 50px;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+
+.icon:hover {
+    transition-duration: 0.3s;
+    width: 60px;
+    border: solid 3px white
+}
+
+.icon:not(:hover) {
+    transition-duration: 0.3s;
+}
+
+a {
+    padding-right: 10px;
+}
+
+
